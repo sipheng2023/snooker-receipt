@@ -1,0 +1,33 @@
+.receipt {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  width: 400px;
+  background-color: #f9f9f9;
+}
+
+.receipt table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.receipt th, .receipt td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: left;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .receipt, .receipt * {
+    visibility: visible;
+  }
+  .receipt {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
