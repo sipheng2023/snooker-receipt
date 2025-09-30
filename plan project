@@ -1,0 +1,15 @@
+snooker-receipt/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── ReceiptForm.js
+│   │   ├── Receipt.js
+│   │   └── PrintButton.js
+│   ├── styles/
+│   │   └── receipt.css
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+
